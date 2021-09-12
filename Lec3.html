@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lec 3</title>
+</head>
+
+<body>
+    <center>
+
+
+        <h1>The Form</h1>
+
+        <form action="" method="POST">
+
+            <label id="first_name">First name</label>
+            <input id="first_name" type="text" placeholder="Your first name" name="firstname" required> <br> <br>
+            <label id="second_name">Second name</label>
+            <input id="second_name" type="text" placeholder="Your second name" name="secondname" required> <br> <br>
+            <label id="email">Email</label>
+            <input type="email" placeholder="user@mail.com" name="mail" size="28px" required/> <br> <br>
+            <label id="pass">Password</label>
+            <input id="pass" type="password" placeholder="***********" maxlength="30" required/> <br> <br>
+            <textarea placeholder="if you have a message write here..."></textarea> <br> <br>
+            <label id="radio_gender">Your gender</label>
+            <input type="radio" value="f" name="gender"> female
+            <input type="radio" value="m" name="gender" checked> male
+
+            <!-- 
+                
+                <label id="radio_gender">Your gender</label>
+            <input type="radio" value="f" name="gender" checked> female
+            <input type="radio" value="m" name="gender1" checked> male
+
+            in this case will check two radio buttons
+        
+        -->
+
+            <br> <br>
+
+            <label id="check1">I agree with all terms and conditions</label>
+            <input type="checkbox" value="check1" name="check_actions" required> <br> <br>
+
+            <label id="select1">Birth Day</label>
+            <select id="select1">
+                    <option value="0" selected disabled> Months</option>
+                    <option value="1">Jan</option>
+                    <option value="2">Feb</option>
+                    <option value="3">Mar</option>
+            </select> <br> <br>
+
+            <button type="submit" name="submit" value="register">Register</button>
+            <button type="reset" name="reset" value="clear">Reset</button> <br> <br>
+            <hr width="70%">
+        </form>
+
+
+        <h1>IFRAME</h1>
+
+        <iframe width="500" height="350" src="https://www.islamweb.net/ar/"> </iframe> <br> <br>
+
+        <hr width="70%"> <br>
+
+        <h1>VIDEO & AUDIO</h1>
+
+        <h3>My Video Tutorial AD</h3>
+
+        <video width="500" height="350" controls loop>
+            <source src="H.ovic Intro.mp4" type="video/mp4">
+        </video>
+        <br>
+        <h3>My Audio Tutorial </h3>
+
+        <audio controls loop>
+                <source src="0011298.mp3" type="audio/mpeg" >   
+            </audio>
+
+    </center>
+
+</body>
+
+
+
+</html>
